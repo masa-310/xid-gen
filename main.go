@@ -8,5 +8,5 @@ import (
 func main() {
 	generatedXID := xid.New()
 	xidString := generatedXID.String()
-	fmt.Println(xidString)
+	fmt.Print(xidString)
 }
